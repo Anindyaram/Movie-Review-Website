@@ -8,7 +8,7 @@ var criticsReviewEl = document.querySelector
 var dropdownEl = document.querySelector("#dropdown");
 var searchMovies = [];
 
-//search bar function//
+//search bar function.   //
 //what happens when search is clicked//
 searchButtonEl.addEventListener("click", function(event){
    event.preventDefault();
@@ -45,6 +45,7 @@ function title(movies){
    posterEl.append(titleEl)
    posterEl.append(posterImgEl);
    criticsReviewEl.appendChild(ratingEl);
+         
    
    });
 });
